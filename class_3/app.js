@@ -14,14 +14,9 @@ app.use(express.json());
 app.disable("X-powered-by");
 
 app.get("/users", (req, res) => {
-  res.header("Access-Control-Allow-origin", "");
-  const { Id } = req.query;
 
-  if (users) {
-    const filterUsers = users.filter((user) => user.id == Id);
-    return res.json(filterUsers);
-  }
-
+res.header("Access-Control-Allow-origin", "");
+  
   res.json(users);
 });
 
