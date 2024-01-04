@@ -1,0 +1,12 @@
+{
+  "name": "api-rest",
+  "version": "1.0.0",
+  "description": "desplegando mi primera api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node class_3/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kelvin abache",
+  "license": "ISC"
+}
