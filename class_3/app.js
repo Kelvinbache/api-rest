@@ -72,7 +72,7 @@ app.patch("/users/:id", (req, res) => {
 const PORT = process.env.PORT ?? 3000 // para configurar el problema
 
 app.listen(PORT, () => {
-  console.log("power on server");
+  console.log(`http://localhost:${PORT}/users`);
 });
 
 // estamos haciendo una direccion que recupere todos los datos
